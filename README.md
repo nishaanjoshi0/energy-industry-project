@@ -1,27 +1,19 @@
 # energy-industry
 
-This project analyzes the impact of natural disasters on the energy industry using FEMA data (2004-2015) and Tableau's multi-maps (Trellis charts).
+This project explored how natural disasters affect the energy industry by analyzing FEMA data from 2004 to 2015 and visualizing the findings through Tableau multi-maps (also called Trellis charts).
 
-In this project, I conducted an in-depth analysis of the impact of natural disasters on the energy industry, utilizing FEMA data from 2004 to 2015. The objective was to identify the top four natural disasters affecting energy companies and their refineries across the U.S. The analysis was performed using Tableau, with a focus on creating multi-maps (also known as Trellis or Panel charts) for effective data visualization.
+I analyzed nationwide disaster data to pinpoint which four types of natural disasters had the greatest impact on energy companies and their refineries. Using Tableau, I focused on mapping and ranking these disasters to show geographic patterns and frequency across the U.S.
 
-The project involved the following key steps:
-
-📊 Data Integration: Natural disaster data was imported into Tableau from a provided dataset. Additional data related to refinery locations of a selected energy company was manually added to identify affected areas.
-
-📍 Geospatial Visualization: Using Tableau’s mapping capabilities, I plotted the locations of natural disasters alongside refinery sites, applying filters to focus on the lower 48 U.S. states. Custom shapes (stars for refineries and circles for disasters) and color coding were applied to distinguish between different disaster types.
-
-🎛️ Interactive Filtering: Quick filters for disaster types and states were implemented, allowing users to explore specific disasters and their geographic impact.
-
-🧮 Trellis Chart Creation: I created multi-maps to visualize the top four disasters impacting refineries. This involved calculating the frequency of disaster incidents and ranking them using custom calculated fields. The multi-maps were divided into quadrants to clearly show the distribution and frequency of these top disasters across the affected states.
-
-📝 Annotation and Insights: Key refinery locations were annotated on the map for clarity, and I provided insights into the specific disasters that had the highest impact on energy refineries. Further, the project concluded with the creation of a Tableau story, weaving together all visualizations to present a coherent narrative on disaster impacts.
+Key Workflows:
+- Data Integration: Imported FEMA disaster data into Tableau and manually added refinery location data to link disaster incidents to specific facilities.
+- Geospatial Mapping: Used Tableau’s mapping tools to plot disaster locations and refinery sites across the lower 48 states. Each disaster type was color-coded, with refineries and disasters represented by distinct custom shapes.
+- Interactive Exploration: Built filters for disaster types and states, enabling users to drill down into specific regions or disaster events.
+- Trellis Chart Design: Created multi-maps that displayed the top four disaster types side by side. This required custom calculated fields to rank disaster frequency and organize the maps into quadrants for easy comparison.
+- Annotations & Insights: Added map annotations for key refinery sites and summarized which disasters posed the highest operational risk. The project concluded with a Tableau Story that combined all visualizations into a clear, narrative-driven report.
 
 Tools & Techniques:
+- Tableau for visualization and Trellis chart creation
+- Calculated fields and ranking logic for data analysis
+- Custom icons, color schemes, and interactive filters for better user experience
 
-• Tableau for data visualization and multi-maps creation
-
-• Data filtering, calculated fields, and ranking functions in Tableau
-
-• Custom shapes, color encoding, and interactive filtering for enhanced visual clarity
-
-This project demonstrates how geospatial data, combined with visual analytics, can provide actionable insights into the operational risks faced by the energy industry due to natural disasters.
+Overall, the project demonstrated how geospatial and visual analytics can uncover meaningful insights about how natural disasters disrupt energy operations and help identify areas of greatest vulnerability.
