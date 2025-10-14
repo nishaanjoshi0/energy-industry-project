@@ -1,4 +1,4 @@
-# energy-industry
+# energy-industry-project
 
 This project explored how natural disasters affect the energy industry by analyzing FEMA data from 2004 to 2015 and visualizing the findings through Tableau multi-maps (also called Trellis charts).
 
